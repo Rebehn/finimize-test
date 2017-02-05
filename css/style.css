@@ -6,13 +6,27 @@ img {
   width: 100%;
 }
 
-.content {
-  width: calc(100% - 3.75rem);
-  margin: 1.875rem 1.875rem 0 1.875rem;
-  background-color: white;
+.navbar {
+  position: fixed;
+  z-index: 1;
+  background-color: lightgrey;
+  width: 100%;
+  overflow: hidden;
 }
 
-.container {
+#navbarBrandImage {
+  width: 40px;
+}
+
+.content {
+  width: calc(100% - 3.75rem);
+  margin: 0 1.875rem;
+  padding-top: 70px;
+  background-color: white;
+  display: block;
+}
+
+.article {
   padding: 40px 1.875rem;
   max-width: 650px;
 }
