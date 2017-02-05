@@ -1,5 +1,5 @@
 body {
-  background-color: lightgrey;
+  background-color: #F2F2F2;
   font-family: "Avenir Next", "Avenir", "Lato", "Helvetica", "Arial", "Sans-Serif";
 }
 
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
   position: fixed;
   z-index: 1;
-  background-color: lightgrey;
+  background-color: #F2F2F2;
   width: 100%;
   overflow: hidden;
 }
@@ -34,11 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .author {
   position: relative;
+  display: inline-block;
   width: 50%;
 }
 
 .authorInit {
-  background-color: lightgrey;
+  background-color: #F2F2F2;
   color: grey;
   display: inline-block;
   text-align: center;
@@ -65,11 +66,13 @@ h1, h2, h3, h4, h5, h6 {
 .bar {
   width: 100%;
   height: 30px;
-  background-color: lightgrey;
+  background-color: #F2F2F2;
 }
 
 .shareBox {
+  display: inline-block;
   font-size: 0;
+  width: 49%;
 }
 
 .shareLogo {
@@ -83,6 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #shareTwitter {
+  margin-left: 20%;
   color: #4099FF;
 }
 
@@ -115,6 +119,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #shareReddit:hover {
   background-color: #FF5700;
+  color: white;
+}
+
+#sharePrint {
+  color: #808080;
+}
+
+#sharePrint:hover {
+  background-color: #808080;
   color: white;
 }
 
