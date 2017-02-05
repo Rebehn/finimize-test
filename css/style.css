@@ -3,6 +3,26 @@ body {
   font-family: "Avenir Next", "Avenir", "Lato", "Helvetica", "Arial", "Sans-Serif";
 }
 
+button {
+  border: none;
+  background-color: #00B2FF;
+  transition: all 0.35s;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+button:hover {
+  background-color: #33c2ff;
+}
+
+button:focus {
+  outline: none;
+}
+
 img {
   width: 100%;
 }
@@ -28,6 +48,27 @@ p a {
   background-color: #F2F2F2;
   width: 100%;
   overflow: hidden;
+}
+
+.menuBtn {
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+#logo {
+  font-family: "Avenir Next", "Avenir", "Lato", "Helvetica", "Arial", "Sans-Serif";
+  font-size: 50px;
+  color: #00B2FF;
+  width: 200px;
+}
+
+.navSignup {
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 100px;
+  float: right;
 }
 
 .content {
@@ -153,13 +194,7 @@ p a {
 }
 
 .signup {
-  background-color: #00B2FF;
-  padding: 8px;
-  margin-top: 10px;
-  border-radius: 4px;
-  text-align: center;
-  font-weight: bold;
-  color: white;
+  width: 100%;
 }
 
 
