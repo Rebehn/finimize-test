@@ -8,7 +8,18 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
   color: #00B2FF;
+}
+
+h4 {
+  margin: 30px 0 10px 0;
+}
+
+p a {
+  color: #00B2FF;
+  text-decoration: underline;
+  transition: all 0.35s;
 }
 
 .navbar {
@@ -55,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   top: 5px;
   left: 52px;
+  color: #00B2FF;
 }
 
 #date {
@@ -86,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #shareTwitter {
-  margin-left: 20%;
+  margin-left: 12%;
   color: #4099FF;
 }
 
@@ -128,6 +140,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #sharePrint:hover {
   background-color: #808080;
+  color: white;
+}
+
+#shareEmail {
+  color: #4DC247;
+}
+
+#shareEmail:hover {
+  background-color: #4DC247;
   color: white;
 }
 
