@@ -1,9 +1,14 @@
 body {
   background-color: lightgrey;
+  font-family: "Avenir Next", "Avenir", "Lato", "Helvetica", "Arial", "Sans-Serif";
 }
 
 img {
   width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00B2FF;
 }
 
 .navbar {
@@ -12,10 +17,6 @@ img {
   background-color: lightgrey;
   width: 100%;
   overflow: hidden;
-}
-
-#navbarBrandImage {
-  width: 40px;
 }
 
 .content {
@@ -31,6 +32,11 @@ img {
   max-width: 650px;
 }
 
+.author {
+  position: relative;
+  width: 50%;
+}
+
 .authorInit {
   background-color: lightgrey;
   color: grey;
@@ -41,6 +47,19 @@ img {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
+}
+
+#name {
+  position: absolute;
+  font-weight: bold;
+  top: 5px;
+  left: 52px;
+}
+
+#date {
+  position: absolute;
+  bottom: 2px;
+  left: 52px;
 }
 
 .bar {
@@ -99,7 +118,15 @@ img {
   color: white;
 }
 
-
+.signup {
+  background-color: #00B2FF;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
 
 
 
